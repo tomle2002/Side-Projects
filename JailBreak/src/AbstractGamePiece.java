@@ -1,27 +1,3 @@
-////////////////////////////////////////////////////////////////
-// Copyright 2012, CompuScholar, Inc.
-//
-// This source code is for use by the students and teachers who 
-// have purchased the corresponding TeenCoder or KidCoder product.
-// It may not be transmitted to other parties for any reason
-// without the written consent of CompuScholar, Inc.
-// This source is provided as-is for educational purposes only.
-// CompuScholar, Inc. makes no warranty and assumes
-// no liability regarding the functionality of this program.
-//
-////////////////////////////////////////////////////////////////
-
-// This class is provided as part of the activity starter.
-// STUDENT SHOULD COMPLETE THE CODE AREAS MARKED BELOW!
-
-/** TeenCoder: Java Programming
- * Chapter 16 - JailBreak Project
- * This abstract class represents one of the game pieces in the 
- * Jail Break game.
- * @author CompuScholar, Inc.
- * @version 1.0
-*/
-
 import java.util.*;
 
 abstract public class AbstractGamePiece
@@ -60,38 +36,32 @@ abstract public class AbstractGamePiece
 		
 	}
 
-	// STUDENT SHOULD ADD AND IMPLEMENT THIS METHOD
 	public int getPlayerType() 
 	{
 		return myPlayerType;
 	}
-	
-	// STUDENT SHOULD ADD AND IMPLEMENT THIS METHOD
+
 	public void setPosition(int row, int col)
 	{
 		myRow = row;
 		myCol = col;
 	}
-	
-	// STUDENT SHOULD ADD AND IMPLEMENT THIS METHOD
+
 	public int getRow() 
 	{ 
 		return myRow; 
 	}
-	
-	// STUDENT SHOULD ADD AND IMPLEMENT THIS METHOD
+
 	public int getCol() 
 	{ 
 		return myCol; 
 	}
 
-	// STUDENT SHOULD ADD AND IMPLEMENT THIS METHOD
 	public String getAbbreviation()
 	{
 		return myAbbreviation;
 	}
-	
-	// STUDENT SHOULD ADD AND IMPLEMENT THIS METHOD
+
 	public String toString()
 	{
 	   if (myPlayerType == PLAYER_OUTLAWS)
@@ -124,8 +94,6 @@ abstract public class AbstractGamePiece
 		return true;
 	}
 	
-
-	// STUDENT SHOULD ADD AND IMPLEMENT THIS METHOD
 	public boolean isCaptured(GameBoard gameBoard)
 	{
 		// declare some local variables to hold two possible adjacent pieces
