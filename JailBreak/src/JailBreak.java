@@ -1,27 +1,3 @@
-////////////////////////////////////////////////////////////////
-// Copyright, CompuScholar, Inc.
-//
-// This source code is for use by the students and teachers who 
-// have purchased the corresponding TeenCoder or KidCoder product.
-// It may not be transmitted to other parties for any reason
-// without the written consent of CompuScholar, Inc.
-// This source is provided as-is for educational purposes only.
-// CompuScholar, Inc. makes no warranty and assumes
-// no liability regarding the functionality of this program.
-//
-////////////////////////////////////////////////////////////////
-
-// This class is provided partially complete as part of the activity starter.
-// STUDENT SHOULD COMPLETE THE CODE AREAS MARKED BELOW!
-
-/** Java Programming
- * Chapter 16 - Jail Break Project
- * This class contains the main game logic for the 
- * Jail Break game.
- * @author CompuScholar, Inc.
- * @version 1.0
-*/
-
 import java.awt.*;
 import java.awt.event.*;
 import javax.swing.*;
@@ -203,7 +179,6 @@ public class JailBreak implements ActionListener
 	
 	// This method is defined but not implemented as part of the activity starter.
 	// If this method is called, the clickedSqure parameter will not be null!
-	// STUDENT SHOULD COMPLETE THIS ENTIRE METHOD!
 	private void handleClickedSquare(GameSquare clickedSquare)
 	{
 		// If there is no square currently selected
