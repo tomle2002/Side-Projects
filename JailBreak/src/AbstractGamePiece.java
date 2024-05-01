@@ -20,14 +20,13 @@ abstract public class AbstractGamePiece
 	// All derived classes will need to implement this method
 	abstract public boolean hasEscaped();
 
-	// STUDENT SHOULD ADD AND IMPLEMENT THIS METHOD
+	// ADD AND IMPLEMENT THIS METHOD
 	abstract protected boolean isSquareRestricted(GameSquare step);
 	
-	// The student should complete this constructor by initializing the member
 	// variables with the provided data.
 	public AbstractGamePiece(String name, String abbreviation, int playerType)
 	{
-		// STUDENT CODE GOES HERE
+		// CODE GOES HERE
 		myName = name;
 		myAbbreviation = abbreviation;
 		myPlayerType = playerType;
@@ -68,7 +67,7 @@ abstract public class AbstractGamePiece
 	       return "Posse " + myName + " at (" + myRow + "," + myCol + ")";
 	}
 
-	// STUDENT SHOULD ADD AND IMPLEMENT THIS METHOD
+	// ADD AND IMPLEMENT THIS METHOD
 	public boolean canMoveToLocation(List<GameSquare> path)
 	{
 		// first, if it's an empty path, this move is not valid, so return false
