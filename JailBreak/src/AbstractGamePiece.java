@@ -1,9 +1,7 @@
 import java.util.*;
 
 abstract public class AbstractGamePiece
-{
-	// All class members are provided as part of the activity starter!
-	
+{	
 	// These two constants define the Outlaws and Posse teams
 	static public final int PLAYER_OUTLAWS = 0;
 	static public final int PLAYER_POSSE = 1;
