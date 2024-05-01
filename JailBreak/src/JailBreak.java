@@ -28,14 +28,12 @@ public class JailBreak implements ActionListener
 	// This member will hold a reference to the kingpin so we can check it later
 	private AbstractGamePiece kingpinPiece = null;
 
-	// This method is provided as part of the activity starter.  No student modification is needed.
 	// The main method just creates a new JailBreak object to run the game
 	public static void main(String[] args)
 	{
 		new JailBreak();
 	}
 	
-	// This method is provided as part of the activity starter.  No student modification is needed.
 	// The JailBreak constructor will build all of the GUI elements, initialize the game board,
 	// and reset the game to its initial state
 	public JailBreak()
@@ -79,10 +77,8 @@ public class JailBreak implements ActionListener
 		myFrame.setVisible(true);
 	}
 
-	// This method is defined but not implemented as part of the activity starter.
 	// This method is called when the game is first created, and any
 	// time you want to restart a new game.
-	// STUDENT SHOULD COMPLETE THIS ENTIRE METHOD!
 	private void reset()
 	{
 		gameOver = false;	// game is not over
